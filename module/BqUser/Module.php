@@ -4,7 +4,6 @@ namespace BqUser;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Zend\ModuleManager\Feature\AutoloaderProviderInterface;
 
-
 class Module implements AutoloaderProviderInterface, ConfigProviderInterface
 {
     public function getConfig()
