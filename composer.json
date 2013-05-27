@@ -1,6 +1,6 @@
 {
     "name": "elvis-bi/test",
-    "description": "zf2实现的用户模块",
+    "description": "test",
     "type": "project",
     "license": "MIT",
     "keywords": [
@@ -19,5 +19,11 @@
     },
     "replace" : {
         "elvis-bi/bq-user":"self.version"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev",
+            "dev-develop": "0.1.1-dev"
+        }
     }
 }
