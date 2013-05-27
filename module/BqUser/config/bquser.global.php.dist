@@ -1,0 +1,21 @@
+<?php
+return array(
+    'BqUser' => array(
+        # 帐户管理器配置
+        'account_manager' => array(
+            'adapter' => 'BqUser\User\AccountManager\Mysql',
+            'options' => array(
+                'table_name' => 'bquser_user_bind_account',
+            ),
+         ),
+
+        # 开启用户名
+        # 'enable_username'      => true,
+
+        # 用户名是否必需设置，enable_username为false时无效
+        # 'username_required'    => true,
+
+        # 开启完整注册表单
+        # 'enable_full_register' => true,
+     ),
+);

@@ -1,0 +1,33 @@
+{
+    "name": "elvis-bi/bq-user",
+    "description": "zf2实现的用户模块",
+    "type": "zf2-module",
+    "license": "MIT",
+    "keywords": [
+        "zf2",
+        "user"
+    ],
+    "homepage": "https://github.com/elvis-bi/BqUser",
+    "authors": [
+        {
+            "name": "Elvis Bi",
+            "email": "elvis@dwenzi.com",
+            "homepage": "http://www.dwenzi.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "BqUser\\": "src/"
+        }
+    },
+    "target-dir": "module/BqUser",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev",
+            "dev-develop": "0.1.1-dev"
+        }
+    }
+}
