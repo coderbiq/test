@@ -1,0 +1,23 @@
+{
+    "name": "elvis-bi/test",
+    "description": "zf2实现的用户模块",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "test"
+    ],
+    "homepage": "https://github.com/elvis-bi/test",
+    "authors": [
+        {
+            "name": "Elvis Bi",
+            "email": "elvis@dwenzi.com",
+            "homepage": "http://www.dwenzi.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "replace" : {
+        "elvis-bi/bq-user":"self.version"
+    }
+}
